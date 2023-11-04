@@ -23,10 +23,6 @@ export default function Home ({ allPostsData }) {
       <section className={utilStyles.headingMd}>
         <p>I use decades of technical experience and a uniquely creative approach to envision, design and deliver scalable solutions. Working closely with my leadership and cross-functional teams, I'm able to elegantly solve our most complex challenges.</p>
         <p>I also take great pride in my management style. Using progressive hiring and training methods, I devised a systematic approach to inspiring, elevating and providing accountability. As a result of these methods, my team has consistently exceeded our goals while also maintaining the lowest turnover in the engineering department.</p>
-        <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-        </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
