@@ -1,0 +1,12 @@
+.cards {
+  padding-left: 0;
+}
+.cards li {
+  margin-bottom: .5rem;
+  border-left: 4px solid lightgray;
+  padding-left: 1rem;
+  list-style-type: none;
+}
+.cards p {
+  margin-top: 0;
+}
