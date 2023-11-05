@@ -25,3 +25,16 @@ img {
   max-width: 100%;
   display: block;
 }
+
+.caption {
+  color: #666;
+  font-size: 0.875rem;
+}
+
+hr {
+  margin: 2rem 0 2rem;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}

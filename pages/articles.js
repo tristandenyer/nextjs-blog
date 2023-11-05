@@ -52,7 +52,7 @@ export default function Articles() {
                 {items.map((item, index) => (
                     <li key={index}>
                         <small className={utilStyles.lightText}>
-                            <Date dateString={item.pubDate} />
+                            {item.pubDate && <Date dateString={item.pubDate} />}
                         </small>
                         <a href={item.link} target={"_blank"}>
                             <p>{item.title}</p>
