@@ -35,6 +35,7 @@ export default function Layout({ children, home }) {
               alt=""
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <small className={utilStyles.lightText}>Engineering Manager <small className={utilStyles.separatorText}>//</small> Team Builder <small className={utilStyles.separatorText}>//</small> Former UX Designer</small>
           </>
         ) : (
           <>
