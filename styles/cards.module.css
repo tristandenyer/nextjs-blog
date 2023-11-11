@@ -3,7 +3,7 @@
 }
 .cards li {
   margin-bottom: .5rem;
-  border-left: 4px solid lightgray;
+  border-left: 4px solid #7B8DB1;
   padding-left: 1rem;
   list-style-type: none;
 }

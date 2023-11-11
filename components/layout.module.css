@@ -1,8 +1,25 @@
 .container {
     max-width: 46rem;
-    padding: 0 1rem;
-    margin: 3rem auto 6rem;
+    padding: 3rem 1rem 6rem;
+    margin: 0 auto;
 }
+.gradientBackground {
+    background: linear-gradient(124deg,#cfe9f7,#e6edf1,#b0d8ef);
+    background-size: 180% 180%;
+    animation: gradient-animation 24s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
 
 .header {
     display: flex;
