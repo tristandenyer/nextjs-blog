@@ -49,16 +49,16 @@ export default function Articles() {
             <h2>Latest Posts on Medium</h2>
             <p>As I have been working on being a more effective and intentional manager, I found also been sharing out my learnings along the way.</p>
             <ul className={cardStyles.cards}>
-                {items.map((item, index) => (
-                    <li key={index}>
-                        <small className={utilStyles.lightText}>
-                            {item.pubDate && <Date dateString={item.pubDate} />}
-                        </small>
-                        <a href={item.link} target={"_blank"}>
-                            <p>{item.title}</p>
-                        </a>
-                    </li>
-                ))}
+            { items?.map((item, index) => (
+                <li key={index}>
+                <small className={utilStyles.lightText}>
+                    {item.pubDate && <Date dateString={item.pubDate} />}
+                </small>
+                <a href={item.link} target={"_blank"}>
+                    <p>{item.title}</p>
+                </a>
+            </li>
+            ))}
             </ul>
             <a
                 href={"https://tristandenyer.medium.com/"}
