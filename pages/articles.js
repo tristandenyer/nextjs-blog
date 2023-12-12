@@ -54,7 +54,9 @@ export default function Articles() {
                 <small className={utilStyles.lightText}>
                     {item.pubDate && <Date dateString={item.pubDate} />}
                 </small>
-                <a href={item.link} target={"_blank"}>
+                <a 
+                    href={item.link} target={"_blank"}
+                    rel={"noopener noreferrer"}>
                     <p>{item.title}</p>
                 </a>
             </li>
