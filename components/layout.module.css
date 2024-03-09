@@ -4,7 +4,7 @@
     margin: 0 auto;
 }
 .tileBackground {
-  background-image: url('/images/css-pattern-by-magicpattern.png');
+  background-image: url('/images/plus-tile.webp');
 }
 .gradientBackground {
     background-image: linear-gradient(124deg,#cfe9f7,rgb(244, 246, 247,.8),#a2d7f6);
