@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.tristandenyer.com/
+
+# Sitemaps
+Sitemap: https://www.tristandenyer.com/sitemap.xml
