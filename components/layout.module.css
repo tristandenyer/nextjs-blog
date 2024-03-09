@@ -3,8 +3,11 @@
     padding: 3rem 1rem 6rem;
     margin: 0 auto;
 }
+.tileBackground {
+  background-image: url('/images/css-pattern-by-magicpattern.png');
+}
 .gradientBackground {
-    background: linear-gradient(124deg,#cfe9f7,#e6edf1,#b0d8ef);
+    background-image: linear-gradient(124deg,#cfe9f7,rgb(244, 246, 247,.8),#a2d7f6);
     background-size: 180% 180%;
     animation: gradient-animation 24s ease infinite;
   }
