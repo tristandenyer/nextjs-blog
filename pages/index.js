@@ -23,6 +23,16 @@ export default function Home({ allPostsData }) {
         <Layout home>
           <Head>
             <title>{siteTitle}</title>
+            <meta property="og:title" content={siteTitle} />
+            <meta
+              property="og:description"
+              content="I use decades of technical experience and a uniquely creative
+              approach to envision, design and deliver scalable solutions."
+            />
+            <meta
+              property="og:image"
+              content="/images/tristan-denyer-unfurl.jpg"
+            />
           </Head>
           <section className={utilStyles.headingMd}>
             <p>

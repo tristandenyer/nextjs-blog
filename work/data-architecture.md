@@ -1,5 +1,6 @@
 ---
 title: "Data Architecture Documentation"
+description: "Big data architecture poster I designed while at RealGravity helped explain this complex systrem to the team."
 date: ""
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "UI Development Study: How Do People Hold and Interact with Their Phone?"
+description: "Results from a survey I wrote and conducted to discover how people held and interacted with their phone."
 date: ""
 ---
 

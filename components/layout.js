@@ -1,12 +1,12 @@
-import Head from 'next/head';
-import Image from 'next/image';
-import styles from './layout.module.css';
-import utilStyles from '../styles/utils.module.css';
-import Link from 'next/link';
-import { Analytics } from '@vercel/analytics/react';
+import Head from "next/head";
+import Image from "next/image";
+import styles from "./layout.module.css";
+import utilStyles from "../styles/utils.module.css";
+import Link from "next/link";
+import { Analytics } from "@vercel/analytics/react";
 
-const name = 'Tristan Denyer';
-export const siteTitle = 'Tristan Denyer, San Francisco, CA';
+const name = "Tristan Denyer";
+export const siteTitle = "Tristan Denyer, San Francisco, CA";
 
 export default function Layout({ children, home }) {
   return (
@@ -15,13 +15,13 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="I use decades of technical experience and a uniquely creative approach to envision, design and deliver scalable solutions. Working closely with my leadership and cross-functional teams, I'm able to elegantly solve our most complex challenges."
+          content="I use decades of technical experience and a uniquely creative
+          approach to envision, design and deliver scalable solutions."
         />
         <meta
           property="og:image"
           content={`/images/tristan-denyer-unfurl.jpg`}
         />
-        <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header className={styles.header}>
@@ -36,7 +36,12 @@ export default function Layout({ children, home }) {
               alt=""
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
-            <small className={utilStyles.lightText}>Engineering Manager <small className={utilStyles.separatorText}>//</small> Team Builder <small className={utilStyles.separatorText}>//</small> Former UX Designer</small>
+            <small className={utilStyles.lightText}>
+              Engineering Manager{" "}
+              <small className={utilStyles.separatorText}>//</small> Team
+              Builder <small className={utilStyles.separatorText}>//</small>{" "}
+              Former UX Designer
+            </small>
           </>
         ) : (
           <>
