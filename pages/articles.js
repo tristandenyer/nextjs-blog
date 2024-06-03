@@ -76,7 +76,7 @@ export default function Articles() {
           target={"_blank"}
           rel={"noopener noreferrer"}
         >
-          Read more on Medium 🡕
+          Read more on Medium
         </a>
       </div>
     </section>
