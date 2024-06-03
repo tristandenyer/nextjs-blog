@@ -59,9 +59,15 @@ export default function Articles() {
               <small className={utilStyles.lightText}>
                 {item.pubDate && <Date dateString={item.pubDate} />}
               </small>
-              <a href={item.link} target={"_blank"} rel={"noopener noreferrer"}>
-                <p>{item.title}</p>
-              </a>
+              <p>
+                <a
+                  href={item.link}
+                  target={"_blank"}
+                  rel={"noopener noreferrer"}
+                >
+                  {item.title}
+                </a>
+              </p>
             </li>
           ))}
         </ul>
@@ -70,7 +76,7 @@ export default function Articles() {
           target={"_blank"}
           rel={"noopener noreferrer"}
         >
-          Read More on Medium
+          Read more on Medium 🡕
         </a>
       </div>
     </section>
