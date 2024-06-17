@@ -10,9 +10,7 @@ export default function Articles() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const res = await fetch(
-          "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@tristandenyer"
-        );
+        const res = await fetch("/medium-articles-static.json");
         const data = await res.json();
         const items = data.items;
         setItems(items);
