@@ -35,13 +35,13 @@ export default function Home({ allPostsData }) {
             />
           </Head>
           <section className={utilStyles.headingMd}>
-            <p>
+            <p className="mb-3">
               I use decades of technical experience and a uniquely creative
               approach to envision, design and deliver scalable solutions.
               Working closely with my leadership and cross-functional teams, I'm
               able to elegantly solve our most complex challenges.
             </p>
-            <p>
+            <p className="mb-3">
               I also take great pride in my management style. Using progressive
               hiring and training methods, I devised a systematic approach to
               inspiring, elevating and providing accountability. As a result of

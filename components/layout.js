@@ -5,6 +5,8 @@ import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+// These styles apply to every route in the application
+import "/app/globals.css";
 
 const name = "Tristan Denyer";
 export const siteTitle = "Tristan Denyer, San Francisco, CA";
@@ -61,12 +63,20 @@ export default function Layout({ children, home }) {
               alt=""
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
-            <small className={utilStyles.lightText}>
-              Engineering Manager{" "}
-              <small className={utilStyles.separatorText}>//</small> Team
-              Builder <small className={utilStyles.separatorText}>//</small>{" "}
-              Former UX Designer
-            </small>
+            <div className="grid grid-cols-3 gap-5 text-slate-600 text-xs justify-items-center mb-4">
+              <div>
+                <span className="text-slate-400 text-xs pr-2">//</span>
+                Engineering Manager
+              </div>
+              <div>
+                <span className="text-slate-400 text-xs pr-2">//</span>
+                Team Builder & Coach
+              </div>
+              <div>
+                <span className="text-slate-400 text-xs pr-2">//</span>
+                Former UX Designer
+              </div>
+            </div>
           </>
         ) : (
           <>
